@@ -1,0 +1,14 @@
+
+multitenancy: 
+  mtapp: 
+    master: 
+      datasource:
+        url: jdbc:postgresql://localhost:5432/proh2r
+        username: postgres
+        password: nayab
+        driverClassName: org.postgresql.Driver
+        connectionTimeout: 20000
+        maxPoolSize: 10
+        idleTimeout: 300000
+        minIdle: 10
+        poolName: masterdb-connection-pool
